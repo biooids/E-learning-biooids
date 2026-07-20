@@ -102,7 +102,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
         </nav>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 p-4">
+      {/* <div className="absolute bottom-0 left-0 right-0 p-4">
         <div className="bg-primary-700 rounded-md p-4 text-primary-100">
           <h4 className="text-sm font-medium mb-2 text-accent-300">
             Need Help?
@@ -115,7 +115,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
             View Tutorials
           </button>
         </div>
-      </div>
+      </div> */}
     </aside>
   );
 };
